@@ -46,6 +46,3 @@ console.log(brands);
     
 //use higher order array methods instead of for loops!!
 
-/* 
-    All credits: Fireship 🔥!!!!!!!
-*/
