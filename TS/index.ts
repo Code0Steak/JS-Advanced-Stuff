@@ -66,8 +66,28 @@ const chef1 : Chef = {
 
 //Strong typing functions 🙇🏽‍♂️
 
-function pow(x,y){
-    return Math.pow(x,y);
+function pow(x : number,y : number) : string {
+    return Math.pow(x,y).toString();
 }
 
 pow(2,3);
+
+//Strong typing an Array:
+
+const arr : number[] = [];
+
+arr.push(1);
+arr.unshift(3);
+
+//Types can also be used to check the data stored in an Array of Objects
+
+//Tuples: A fixed length array in which each element has a fixed type.
+
+type tuple = [string, number, boolean?];
+// ❓ for a loose type!!!
+
+//Generics: To use strong types inside a class.
+
+class rxjsObservable <T>{
+    constructor(public value : T) {}
+}
