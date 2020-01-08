@@ -389,13 +389,14 @@ const food = [
   }
   
   function addItem(_item,_callback(x)){
-
      setTimeout(()=>{food.push(_item)},2000);
      _callback(x);
   }
   
   //getItem(50);
-  addItem({name: 'cheese',cost: 50},getItem(50)); */
+  addItem({name: 'cheese',cost: 50},getItem(50)); 
+  
+  */
 
 
   //async-await:
