@@ -5,7 +5,6 @@
     This helps us to write more predictable code.
     There is no learning curve as every JS code is valid in TS ╰(*°▽°*)╯
     It helps us to write code with future JS features, so stays always updated!!
-
     
 */
 
@@ -26,6 +25,7 @@ async function hello(){
     1. "target" : "esnext", so that the code always transpiles to the latest supported ver. of JS
     2. "watch" : true, so that after every save the index.TS will be transpiled to index.js
     3. "lib" : ["dom","es2017"], to access all the latest supported dom API's.
+    
 */
 
 
@@ -91,3 +91,11 @@ type tuple = [string, number, boolean?];
 class rxjsObservable <T>{
     constructor(public value : T) {}
 }
+
+//type of an array of object:
+
+let userTestStatus: { id: number, name: string }[] = [
+    { "id": 0, "name": "Available" },
+    { "id": 1, "name": "Ready" },
+    { "id": 2, "name": "Started" }
+];
