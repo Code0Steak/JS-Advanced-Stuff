@@ -1,11 +1,12 @@
-// JS is a dynamic programming language which when applied to a HTML document,can provide dynamic interactivity to webpages.
-// supports first-class-functions, functions can be sent as parameters to other functions, can be nested,etc.
+// JS is a dynamic programming language 
 
-// types of variables: var(globally scoped), let(latest ES6), const(latest ES6)
+
+// types of variables: var(function scoped), let(latest ES6), const(latest ES6)
 
 //datatypes: string, number, boolean, array, object, undefined, null, symbol
 
 //JS supports dynamic typing = "you don't need to specify the datatype of a variable, set its value, js automatically detects the datatype!!!!"
+// supports first-class-functions, functions can be sent as parameters to other functions, can be nested,etc.
 
 egg = 2;
 recipe = "omlet";
